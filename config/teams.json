@@ -1,0 +1,77 @@
+[
+  {
+    "id": "content",
+    "name": "Content Hub",
+    "email": "content@example.com"
+  },
+  {
+    "id": "corp-dev",
+    "name": "Corporate Development Partner",
+    "email": "corp-dev@example.com"
+  },
+  {
+    "id": "patient-dev",
+    "name": "Patient Development Partner",
+    "email": "patient-dev@example.com"
+  },
+  {
+    "id": "hcp-dev",
+    "name": "HCP Development Partner",
+    "email": "hcp-dev@example.com"
+  },
+  {
+    "id": "campaign-dev",
+    "name": "Campaign Development Partner",
+    "email": "campaign-dev@example.com"
+  },
+  {
+    "id": "operations",
+    "name": "Platform Operations",
+    "email": "operations@example.com"
+  },
+  {
+    "id": "infrastructure",
+    "name": "Infrastructure & DNS",
+    "email": "infrastructure@example.com"
+  },
+  {
+    "id": "iam",
+    "name": "IAM & AEM Administration",
+    "email": "iam@example.com"
+  },
+  {
+    "id": "martech",
+    "name": "Integration & MarTech",
+    "email": "martech@example.com"
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "email": "analytics@example.com"
+  },
+  {
+    "id": "seo",
+    "name": "SEO Team",
+    "email": "seo@example.com"
+  },
+  {
+    "id": "accessibility",
+    "name": "Accessibility Team",
+    "email": "accessibility@example.com"
+  },
+  {
+    "id": "security",
+    "name": "Security Operations",
+    "email": "security@example.com"
+  },
+  {
+    "id": "localization",
+    "name": "Localization",
+    "email": "localization@example.com"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "email": "devops@example.com"
+  }
+]

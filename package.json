@@ -1,0 +1,40 @@
+{
+  "name": "aem-support-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "demo": "bash scripts/demo.sh",
+    "test:setup": "node --test scripts/demo-checks.mjs",
+    "dev": "tsx watch --env-file-if-exists=.env src/server/index.ts",
+    "build": "tsc --noEmit && vite build && tsc -p tsconfig.server.json",
+    "start": "node --env-file-if-exists=.env dist/server/src/server/index.js",
+    "test": "vitest run",
+    "evaluate": "tsx --env-file-if-exists=.env evaluation/run.ts",
+    "smoke": "tsx --env-file-if-exists=.env evaluation/smoke.ts",
+    "format": "prettier --write src data config tests evaluation vite.config.ts *.json index.html docs/*.md README.md"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/supertest": "^6.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "prettier": "^3.9.9",
+    "supertest": "^7.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vitest": "^5.0.4"
+  }
+}

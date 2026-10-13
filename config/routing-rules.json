@@ -1,0 +1,92 @@
+[
+  {
+    "id": "route-content_authoring",
+    "category": "content_authoring",
+    "reason": "Verify publication and asset references first; cache diagnosis may require Operations.",
+    "team": "content"
+  },
+  {
+    "id": "route-component_defect",
+    "category": "component_defect",
+    "reason": "Program-specific component implementation.",
+    "teamFromProgram": true
+  },
+  {
+    "id": "route-application_config",
+    "category": "application_config",
+    "reason": "Program-specific application configuration.",
+    "teamFromProgram": true
+  },
+  {
+    "id": "route-dispatcher_cdn",
+    "category": "dispatcher_cdn",
+    "reason": "Configured shared CDN/Dispatcher operational owner.",
+    "team": "operations"
+  },
+  {
+    "id": "route-dns",
+    "category": "dns",
+    "reason": "Configured domain and certificate owner.",
+    "team": "infrastructure"
+  },
+  {
+    "id": "route-iam",
+    "category": "iam",
+    "reason": "Configured identity and author administration owner.",
+    "team": "iam"
+  },
+  {
+    "id": "route-integrations",
+    "category": "integrations",
+    "reason": "Configured initial integration triage owner.",
+    "team": "martech"
+  },
+  {
+    "id": "route-analytics",
+    "category": "analytics",
+    "reason": "Configured analytics owner.",
+    "team": "analytics"
+  },
+  {
+    "id": "route-seo",
+    "category": "seo",
+    "reason": "SEO triage; implementation can require Operations or Development.",
+    "team": "seo"
+  },
+  {
+    "id": "route-accessibility",
+    "category": "accessibility",
+    "reason": "Accessibility triage; implementation can require Development.",
+    "team": "accessibility"
+  },
+  {
+    "id": "route-security",
+    "category": "security",
+    "reason": "Security suspicion requires expedited human review.",
+    "team": "security"
+  },
+  {
+    "id": "route-localization",
+    "category": "localization",
+    "reason": "Configured localization triage owner.",
+    "team": "localization"
+  },
+  {
+    "id": "route-deployments",
+    "category": "deployments",
+    "reason": "Configured pipeline triage owner.",
+    "team": "devops"
+  },
+  {
+    "id": "route-redirects",
+    "category": "redirects",
+    "candidates": ["operations", "PROGRAM", "content"],
+    "reason": "Ownership depends on implementation. Select a responsible team after review."
+  },
+  {
+    "id": "route-performance",
+    "category": "performance",
+    "candidates": ["operations", "PROGRAM"],
+    "reason": "Ownership depends on implementation. Select a responsible team after review."
+  }
+]

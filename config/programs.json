@@ -1,0 +1,90 @@
+[
+  {
+    "id": "corporate",
+    "name": "Corporate",
+    "developmentTeam": "corp-dev",
+    "domains": [
+      {
+        "host": "corporate-de.example.com",
+        "affiliate": "Germany",
+        "environment": "production"
+      },
+      {
+        "host": "corporate-dk.example.com",
+        "affiliate": "Denmark",
+        "environment": "production"
+      },
+      {
+        "host": "corporate.example.com",
+        "affiliate": "Global",
+        "environment": "production"
+      },
+      {
+        "host": "stage-corporate.example.com",
+        "affiliate": "Global",
+        "environment": "stage"
+      }
+    ]
+  },
+  {
+    "id": "patient",
+    "name": "Patient",
+    "developmentTeam": "patient-dev",
+    "domains": [
+      {
+        "host": "patient-br.example.com",
+        "affiliate": "Brazil",
+        "environment": "production"
+      },
+      {
+        "host": "patient.example.com",
+        "affiliate": "Global",
+        "environment": "production"
+      },
+      {
+        "host": "stage-patient.example.com",
+        "affiliate": "Global",
+        "environment": "stage"
+      }
+    ]
+  },
+  {
+    "id": "hcp",
+    "name": "Hcp",
+    "developmentTeam": "hcp-dev",
+    "domains": [
+      {
+        "host": "hcp-de.example.com",
+        "affiliate": "Germany",
+        "environment": "production"
+      },
+      {
+        "host": "hcp.example.com",
+        "affiliate": "Global",
+        "environment": "production"
+      },
+      {
+        "host": "stage-hcp.example.com",
+        "affiliate": "Global",
+        "environment": "stage"
+      }
+    ]
+  },
+  {
+    "id": "campaigns",
+    "name": "Campaigns",
+    "developmentTeam": "campaign-dev",
+    "domains": [
+      {
+        "host": "campaign.example.com",
+        "affiliate": "Global",
+        "environment": "production"
+      },
+      {
+        "host": "stage-campaigns.example.com",
+        "affiliate": "Global",
+        "environment": "stage"
+      }
+    ]
+  }
+]
